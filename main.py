@@ -9,7 +9,7 @@ import adding
 
 
 #пдіключення бота через унікальний токен
-bot = telebot.TeleBot('5526474097:AAHkX6jthirpybjWqODVv6E3CAruwkbh75I')
+bot = telebot.TeleBot(***) //unique token
 
 #Хендлер для прийому команди /start
 @bot.message_handler(commands=['start'])
